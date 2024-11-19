@@ -7,5 +7,5 @@ cd /
 echo ${HOME}
 
 set +v
-cd ${START_PWD}
+cd ${START_WD}
 unset START_WD
