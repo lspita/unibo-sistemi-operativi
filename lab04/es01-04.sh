@@ -21,3 +21,19 @@ chmod +x ./cercafile.sh
 ./cercafile.sh
 
 set +v
+echo "3) USARE poi LE ESPRESSIONI CONDIZIONALI nella forma [ ] per risolvere l'esercizio \
+numero 1 qui sopra descritto"
+set -v
+
+chmod +x ./cercadir1.sh
+./cercadir1.sh
+
+set +v
+echo "4) USARE poi LE ESPRESSIONI CONDIZIONALI nella forma test per risolvere \
+l'esercizio numero 1 qui sopra descritto"
+set -v
+
+chmod +x ./cercadir2.sh
+./cercadir2.sh
+
+set +v
