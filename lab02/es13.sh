@@ -16,8 +16,8 @@ if [[ -f .profile ]]; then
 	cp .profile .profile.backup
 fi
 
-echo "echo bashrc" >> .bashrc
-echo "echo profile" >> .profile
+echo "echo 'executed bashrc'" >> .bashrc
+echo "echo 'executed profile'" >> .profile
 read # Press enter to start non-login interactive shell
 bash
 
@@ -26,7 +26,7 @@ echo 'hello world'" > testscript.sh
 chmod +x testscript.sh
 read # Press enter to start non-interactive shell
 chmod +x ./testscript.sh 
-bash -c ./testscript.sh
+./testscript.sh
 rm testscript.sh
 
 mv .bashrc.backup .bashrc
