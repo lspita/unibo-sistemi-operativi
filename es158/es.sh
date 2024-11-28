@@ -5,6 +5,7 @@ parte di filesystem a partire dalla directory /usr/include/
 Lo script deve stampare sul proprio standard error il numero delle righe contate."
 set -v
 
-
+chmod +x ./asterischi.sh
+./asterischi.sh
 
 set +v
