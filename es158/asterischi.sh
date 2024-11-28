@@ -8,4 +8,4 @@ for FILE in ${DIR}/*.h; do
 	COUNT=$((${COUNT} + ${MATCHING_ROWS}))
 done
 
-echo ${COUNT}
+echo ${COUNT} 1>&2
