@@ -19,5 +19,8 @@ chmod +x ./nAnB.sh
 ./nAnB.sh AAB # falso
 ./nAnB.sh AabB # falso
 ./nAnB.sh ABAB # falso
+./nAnB.sh B # falso
+./nAnB.sh A # falso
+./nAnB.sh "" # falso
 
 set +v

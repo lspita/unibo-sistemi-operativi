@@ -23,8 +23,11 @@ for ((i=0; i<${#WORD}; i=${i}+1)); do
 	fi
 done
 
-if [ ! ${N_A} -eq ${N} ] || (( ${N} + ${N_A} < ${#WORD} )); then
+if [[ 	${N_A} -eq 0 ||
+	${N} -eq 0 ||
+	! ${N_A} -eq ${N} ]] ||
+	(( ${N} + ${N_A} < ${#WORD} )); then
 	echo falso
 else
-	echo vero ${N}
+	echo vero N=${N}
 fi
