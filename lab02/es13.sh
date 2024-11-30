@@ -18,14 +18,13 @@ fi
 
 echo "echo 'executed bashrc'" >> .bashrc
 echo "echo 'executed profile'" >> .profile
-read # Press enter to start non-login interactive shell
+read # Press enter to start non-login interactive shell (needs manual exit)
 bash
 
-echo "#!/bin/bash
-echo 'hello world'" > testscript.sh
+echo -e "#!/bin/bash\necho hello world" > testscript.sh
 chmod +x testscript.sh
 read # Press enter to start non-interactive shell
-chmod +x ./testscript.sh 
+chmod +x ./testscript.sh
 ./testscript.sh
 rm testscript.sh
 
