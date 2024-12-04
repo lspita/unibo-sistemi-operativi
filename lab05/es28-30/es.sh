@@ -20,3 +20,10 @@ set -v
 cut -c 3-5,10-15 < test.txt | sed -r "s/[ \t\*]//g"
 
 set +v
+echo "30) Aggiungere in pipe il comando word count (wc) e fargli contare il totale \
+dei caratteri contenuti nelle righe visualizzate sullo standard output."
+set -v
+
+cut -c 3-5,10-15 < test.txt | sed -r "s/[ \t\*]//g" | wc -m
+
+set +v
