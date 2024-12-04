@@ -10,14 +10,14 @@ set -v
 
 cd ${HOME}
 if [[ -f .bashrc ]]; then
-	cp .bashrc .bashrc.backup
+	mv .bashrc .bashrc.backup
 fi
 if [[ -f .profile ]]; then
-	cp .profile .profile.backup
+	mv .profile .profile.backup
 fi
 
-echo "echo 'executed bashrc'" >> .bashrc
-echo "echo 'executed profile'" >> .profile
+echo "echo 'executed bashrc'" > .bashrc
+echo "echo 'executed profile'" > .profile
 read # Press enter to start non-login interactive shell (needs manual exit)
 bash
 

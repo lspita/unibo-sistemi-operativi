@@ -25,4 +25,3 @@ ls -d ./tmp/*[1-3c-m]*.0
 
 set +v
 rm -rf tmp
-

@@ -1,5 +1,12 @@
 START_WD=`pwd`
 
+echo "6. Spostarsi in radice del filesystem e poi stampare a video la propria home directory"
+set -v
+
+cd /
+echo ${HOME}
+
+set +v
 echo "7. Creare nella propria home directory una sottodirectory A1 che contiene una \
 sottodirectory C3 che contiene tre file 1.txt 2.txt e 3.txt. Poi usate ul comando move (mv) \
 per spostare i 3 file nella directory B2. Poi usate il comando copy (cp) per mettere una copia \
