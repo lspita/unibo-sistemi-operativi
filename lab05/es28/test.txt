@@ -1,0 +1,5 @@
+Questo* è	un esempio di file di testo,	creato appositamente per questa richiesta. 
+Ogni riga contiene almeno sette parole, come	specificato.
+Le parole sono separate da	spazi e tabulazioni,	per una migliore leggibilità. 
+L'a	sterisco* è stato inserito	in alcune parole, come richiesto.
+	Possiamo aggiungere quante righe	vogliamo, rispettando	le condizioni. 
