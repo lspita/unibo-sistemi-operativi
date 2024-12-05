@@ -1,0 +1,5 @@
+Questa è la prima riga del mio file di testo. 
+Ogni rigA contiene almeno quattro parole.
+Sto scrivendo un esempio di testo.
+Questo è un compito molto semplice.
+PossiAmo aggiungere quante righe vogliamo.
