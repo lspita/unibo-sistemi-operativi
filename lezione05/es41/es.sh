@@ -20,6 +20,6 @@ for f in `find /usr/include -type f -maxdepth 1`; do
 	grep "*" ${f}
 	COUNT=$((${COUNT}+`grep -c "*" ${f}`))
 done
-echo "Total: ${COUNT}" 
+echo "Total: ${COUNT}"
 
 set +v
