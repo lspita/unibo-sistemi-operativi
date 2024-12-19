@@ -9,3 +9,5 @@
 - [Lezione 9](http://www.cs.unibo.it/~ghini/didattica/sistemioperativi/EstrattoProvePraticheOnline_2020_07_17__2020_09_10.pdf)
 - [Lezione 12](http://www.cs.unibo.it/~ghini/didattica/sistemioperativi/6h_EserciziBash_1053_1054.pdf)
 - [Lezione 13](http://www.cs.unibo.it/~ghini/didattica/sistemioperativi/6ib_EserciziBash_1063.pdf)
+- [Esercizi Bash](http://www.cs.unibo.it/~ghini/didattica/sistemioperativi/SIMULAZIONITEMP/Esercizi_Bash_senza_soluzione.pdf)
+
