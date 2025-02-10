@@ -1,4 +1,4 @@
-# Sincronizzazione di 3 Processi coi Semafori.
+# Sincronizzazione di 3 Processi coi Semafori
 
 Si considerino i processi A, B e C che si sincronizzano come mostrato nel seguito attraverso i semafori Sem1, Sem2 e Sem3 (inizializzati a 0) e che operano sulle variabili condivise x, y e z, che sono inizializzate come segue: x = 1; y = 1; z = 1.
 
@@ -36,10 +36,10 @@ Process C {
 }
 ```
 
-## Con quale ordine i tre processi stampano le variabili?
+# Con quale ordine i tre processi stampano le variabili?
 
 y x z
 
-## Qual è il valore delle tre variabili che viene infine stampato?
+# Qual è il valore delle tre variabili che viene infine stampato?
 
 0 2 4
