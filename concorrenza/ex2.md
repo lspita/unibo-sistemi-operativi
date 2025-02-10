@@ -28,10 +28,11 @@ monitor Ponte_a_senso_unico_alternato {
 void entra_ponte_SN() {
     boolean entrato;
     entrato=false;
-    in_coda_sn++;
     while (not(entrato)) {
         if (in_coda_sn > 0 || dir == NS || n_auto == MAX) {
+            in_coda_sn++;
             coda_SN.wait();
+            in_coda_sn--;
         }
         else {
             n_auto++;
@@ -41,7 +42,6 @@ void entra_ponte_SN() {
     if (in_coda_sn > 0) {
         coda_SN.signal()
     }
-    in_coda_sn--;
 }
 ```
 
@@ -63,10 +63,11 @@ void esci_ponte_SN() {
 void entra_ponte_NS() {
     boolean entrato;
     entrato=false;
-    in_coda_ns++;
     while (not(entrato)) {
         if (in_coda_ns > 0 || dir == SN || n_auto == MAX) {
+            in_coda_ns++;
             coda_NS.wait();
+            in_coda_ns--;
         }
         else {
             n_auto++;
@@ -76,7 +77,6 @@ void entra_ponte_NS() {
     if (in_coda_ns > 0) {
         coda_NS.signal()
     }
-    in_coda_ns--;
 }
 ```
 
