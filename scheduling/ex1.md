@@ -16,7 +16,7 @@ Politiche di scheduling:
 - Shortest Job First (SJF)
 - First Come First Serve (FCFS)
 
-1. Si discuta qual’è l’ordine di esecuzione del processi con le politiche di scheduling.
+1. Si discuta qual'è l'ordine di esecuzione del processi con le politiche di scheduling.
 
 - RR: P1, P2, P3, P1, P2, P3, P1, P2, P3, P1, P2
 - SJF: P3, P2, P3, P2, P1
