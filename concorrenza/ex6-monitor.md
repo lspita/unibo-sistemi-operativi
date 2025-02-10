@@ -32,7 +32,7 @@ void donna_entra_bagno() {
         if (tipo == uomini && persone_in_bagno == 0) {
             tipo = donne;
         }
-        if (tipo == uomini || persone_in_bagno == MAX) {
+        if (donne_in_attesa > 0 || tipo == uomini || persone_in_bagno == MAX) {
             donne.wait();
         } else {
             persone_in_bagno++;
@@ -69,7 +69,7 @@ void uomo_entra_bagno(){
         if (tipo == donne && persone_in_bagno == 0) {
             tipo = uomini;
         }
-        if (tipo == donne || persone_in_bagno == MAX) {
+        if (uomini_in_attesa > 0 || tipo == donne || persone_in_bagno == MAX) {
             uomini.wait();
         } else {
             persone_in_bagno++;

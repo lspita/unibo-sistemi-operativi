@@ -30,7 +30,7 @@ void entra_ponte_SN() {
     entrato=false;
     in_coda_sn++;
     while (not(entrato)) {
-        if (dir == NS || n_auto == MAX) {
+        if (in_coda_sn > 0 || dir == NS || n_auto == MAX) {
             coda_SN.wait();
         }
         else {
@@ -65,7 +65,7 @@ void entra_ponte_NS() {
     entrato=false;
     in_coda_ns++;
     while (not(entrato)) {
-        if (dir == SN || n_auto == MAX) {
+        if (in_coda_ns > 0 || dir == SN || n_auto == MAX) {
             coda_NS.wait();
         }
         else {
