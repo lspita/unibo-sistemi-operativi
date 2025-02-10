@@ -1,4 +1,3 @@
 # Esercizi in preparazione all'esame
 
-Fonte: https://virtuale.unibo.it/mod/folder/view.php?id=1814337
-- [Concorrenza - Esercizi di Preparazione all'Esame](./concorrenza/)
+Source: [Esercizi di Preparazione all'Esame](https://virtuale.unibo.it/mod/folder/view.php?id=1814337)
