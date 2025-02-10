@@ -1,1 +1,0 @@
-Source: [Concorrenza - Esercizi di Preparazione allEsame.pdf](https://virtuale.unibo.it/pluginfile.php/2410126/mod_folder/content/0/Concorrenza%20-%20Esercizi%20di%20Preparazione%20allEsame.pdf?forcedownload=1)
