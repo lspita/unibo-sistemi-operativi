@@ -12,6 +12,8 @@ Completare il seguente frammento di codice relativo alla esecuzione di due proce
 
 Si considerino la Send NON Bloccante e la Receive Bloccante.
 
+## Svolgimento
+
 ```
 Process A {
     Istr_A1;

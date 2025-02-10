@@ -4,6 +4,8 @@ Il Processo A sveglia il processo B e il C poi si sospende in attesa che B e C a
 
 Si correggano e/o completino i seguenti frammenti di codice, considerando mutex inizializzato a 1 e gli altri semafori inizializzati a 0.
 
+## Svolgimento
+
 ```
 Process A {
     V(SemB)

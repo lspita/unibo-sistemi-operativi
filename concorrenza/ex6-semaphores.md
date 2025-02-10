@@ -36,5 +36,10 @@ Process C {
 }
 ```
 
-1. Con quale ordine i tre processi stampano le variabili? y x z
-2. Qual è il valore delle tre variabili che viene infine stampato? 0 2 4
+## Con quale ordine i tre processi stampano le variabili?
+
+y x z
+
+## Qual è il valore delle tre variabili che viene infine stampato?
+
+0 2 4

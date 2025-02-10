@@ -1,4 +1,4 @@
-# Ex 1
+# Esercizio 1
 
 Processi: P1, P2, P3
 
@@ -16,14 +16,13 @@ Politiche di scheduling:
 - Shortest Job First (SJF)
 - First Come First Serve (FCFS)
 
-1. Si discuta qual'è l'ordine di esecuzione del processi con le politiche di scheduling.
+## Si discuta qual'è l'ordine di esecuzione del processi con le politiche di scheduling
 
 - RR: P1, P2, P3, P1, P2, P3, P1, P2, P3, P1, P2
 - SJF: P3, P2, P3, P2, P1
 - FCFS: P1, P2, P3, P1, P2, P3
 
-
-1. Si calcoli anche il tempo medio di attesa e il tempo medio di turnaround che si ottengono con le due politiche di scheduling.
+## Si calcoli anche il tempo medio di attesa e il tempo medio di turnaround che si ottengono con le due politiche di scheduling
 
 Attesa:
 - RR: (23 + 31 + 27) / 3 = 27ms
